@@ -1,0 +1,13 @@
+/Users/timmchale/.rvm/rubies/ruby-1.9.3-p484/bin/ruby extconf.rb 
+creating Makefile
+
+make  clean
+
+make
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+make  install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle /Users/timmchale/code/website/vendor/bundle/gems/eventmachine-1.0.3/ext/fastfilereader/.gem.20140619-28605-welu2n
+installing default fastfilereaderext libraries
