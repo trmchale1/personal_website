@@ -49,7 +49,7 @@ __END__
       <div class="item">
       <img src="<%= pic.sub!(/public\//, '') %>" class="img-responsive" class="img" 
       <div class="carousel-caption">
-        <p>Caption text here</p>
+        
       </div>
     </div>
   </div><!-- /.carousel-inner -->
