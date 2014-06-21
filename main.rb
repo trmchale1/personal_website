@@ -18,10 +18,11 @@ __END__
   <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">  
     <style>
         .img-responsive {
            width: 100%;
+           height: 100%;
            
         }
     
@@ -30,12 +31,55 @@ __END__
 <title>Tim McHale - Indie Developer</title>
 </head>
 <body>
+    <% @pictures.each do |picture| %>
+    
 
-  <% @pictures.each do |picture| %>
+
+    <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
+  <div class="carousel-inner">
+    <div class="item active"><!-- class of active since it's the first item -->
+      <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" class="img"/>
+    </div>
+    <div class="item">
+      <img src="http://placehold.it/1200x480" alt="" />
+      <div class="carousel-caption">
+        <p>Caption text here</p>
+      </div>
+    </div>
+
+  </div><!-- /.carousel-inner -->
+  <!--  Next and Previous controls below
+        href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
+
+
+
     <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" class="img"/>
+  
+
+
+
+
+
+
+
+
+
+
   <% end %>
-   <!-- <script src="//code.jquery.com/jquery.js"></script>
-  //   <script src="js/bootstrap.min.js"></script> -->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+   <script src="//code.jquery.com/jquery.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+      });
+    </script>
 </body>
 </html>
 
