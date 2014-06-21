@@ -8,9 +8,14 @@ def pic
     Dir.glob("public/image/*.{jpg,JPG}")
 end
 
+def pic2
+  Dir.glob("public/images/*.{jpg,JPG}")
+end
+
 get '/' do
 	@pictures = load_pictures
   @pic = pic
+  @pic2 = pic2
     erb :index
   end
 
@@ -38,7 +43,7 @@ __END__
 <body>
     <% @pictures.each do |picture| %>
     <% @pic.each do |pic| %>
-    
+    <%@pic2.each do |pic2|%>
 
 
     <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
@@ -51,13 +56,26 @@ __END__
       <div class="carousel-caption">
         
       </div>
+
+      <div class="item">
+      <img src="<%= pic2.sub!(/public\//, '') %>" class="img-responsive" class="img" 
+      <div class="carousel-caption">
+        
+      </div>
     </div>
-  </div><!-- /.carousel-inner -->
+    </div>
+  </div>
+
+
+
+
+  <!-- /.carousel-inner -->
   <!--  Next and Previous controls below
         href values must reference the id for this carousel -->
     <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
     <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
 </div><!-- /.carousel -->
+  <% end %>
   <% end %>
   <% end %>
    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -67,7 +85,7 @@ __END__
    <script>
       $(document).ready(function(){
         $('.carousel').carousel({
-          interval: 4000
+          interval: 5000
         });
       });
     </script>
