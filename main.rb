@@ -16,6 +16,9 @@ __END__
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen"> 
     <style>
         .img-responsive {
            width: 100%;
@@ -24,8 +27,6 @@ __END__
     
 
     </style>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="user-scalable=yes, width=device-width" />
 <title>Tim McHale - Indie Developer</title>
 </head>
 <body>
@@ -33,6 +34,8 @@ __END__
   <% @pictures.each do |picture| %>
     <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" class="img"/>
   <% end %>
+   <!-- <script src="//code.jquery.com/jquery.js"></script>
+  //   <script src="js/bootstrap.min.js"></script> -->
 </body>
 </html>
 
