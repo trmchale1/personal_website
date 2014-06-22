@@ -49,7 +49,7 @@ __END__
     
 
     </style>
-<title>Tim McHale - Indie Developer</title>
+<title>Tim McHale - Developer</title>
 </head>
 <body>
     <% @pictures.each do |picture| %>
@@ -90,7 +90,7 @@ __END__
 
 <hr class="featurette-divider">
 
-       <div class="row featurette">
+       <div class="row featurette img-responsive">
         <div class="col-3">
           <h2 class="featurette-heading text-center"> <span class="text-muted">Hire me!</span></h2>
           <p class="lead text-center">My name is Tim McHale. I am a self taught mobile and web developer. I am currently looking for the right opportunity to contribute and grow.</p>
@@ -104,19 +104,19 @@ __END__
       <hr class="featurette-divider">
 
       
-      <div class="row featurette">
-        <div class="col-md-6">
+      <div class="row featurette img-responsive">
+        <div class="col-md-5">
           <h2 class="featurette-heading text-center"> <span class="text-muted">I've built</span></h2>
           <p class="lead text-center"> a native iOS analytics platform for Tag</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-6">
           <img class="featurette-image img-center img-responsive" src="<%= pic3.sub!(/public\//, '') %>" >
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-     <div class="row featurette">
+     <div class="row featurette img-responsive">
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
         </div>
