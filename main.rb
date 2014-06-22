@@ -40,13 +40,13 @@ __END__
   <head>
     <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">  
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <style>
         .img-responsive {
            width: 100%;
            height: 100%;
         }
-    
+
 
     </style>
 <title>Tim McHale - Developer</title>
@@ -55,7 +55,7 @@ __END__
     <% @pictures.each do |picture| %>
     <% @pic.each do |pic| %>
     <%@pic2.each do |pic2|%>
-    
+
 
 
     <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
@@ -64,15 +64,15 @@ __END__
       <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" class="img"/>
     </div>
       <div class="item">
-      <img src="<%= pic.sub!(/public\//, '') %>" class="img-responsive" class="img" 
+      <img src="<%= pic.sub!(/public\//, '') %>" class="img-responsive" class="img"
       <div class="carousel-caption">
-        
+
       </div>
 
       <div class="item">
-      <img src="<%= pic2.sub!(/public\//, '') %>" class="img-responsive" class="img" 
+      <img src="<%= pic2.sub!(/public\//, '') %>" class="img-responsive" class="img"
       <div class="carousel-caption">
-        
+
       </div>
     </div>
     </div>
@@ -84,7 +84,7 @@ __END__
   <% end %>
   <% end %>
 </div><!-- /.carousel -->
- 
+
  <%@pic3.each do |pic3|%>
  <%@pic4.each do |pic4|%>
 
@@ -93,8 +93,10 @@ __END__
        <div class="row featurette img-responsive">
         <div class="col-3">
           <h2 class="featurette-heading text-center"> <span class="text-muted">Hire me!</span></h2>
-          <p class="lead text-center">My name is Tim McHale. I am a self taught mobile and web developer. I am currently looking for the right opportunity to contribute and grow.</p>
-          <p class="lead text-center"> Please contact me at trmchale@gmail.com</p>
+          <p class="lead text-center">My name is Tim McHale. I am a self taught mobile and web developer.</p>
+          <p class="lead text-center">I am currently looking for the right opportunity to contribute and grow.</p>
+
+					<p class="lead text-center"> Please contact me at trmchale@gmail.com</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" >
@@ -103,7 +105,7 @@ __END__
 
       <hr class="featurette-divider">
 
-      
+
       <div class="row featurette img-responsive">
         <div class="col-md-5">
           <h2 class="featurette-heading text-center"> <span class="text-muted">I've built</span></h2>
@@ -155,6 +157,3 @@ __END__
     </script>
 </body>
 </html>
-
-
-
