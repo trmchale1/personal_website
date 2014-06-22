@@ -90,35 +90,11 @@ __END__
 
 <hr class="featurette-divider">
 
-      <div class="row featurette">
-        <div class="col-md-6">
-          <h2 class="featurette-heading "> <span class="text-muted">I've built</span></h2>
-          <p class="lead"> a native iOS analytics platform for Tag</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="<%= pic3.sub!(/public\//, '') %>" >
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
-        </div>
-        <div class="col-md-4">
-          <h2 class="featurette-heading"><span class="text-muted">And</span></h2>
-          <p class="lead">developed mobile applications for AstraZenca</p>
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-         <div class="row featurette">
-        <div class="col-md-6">
-          <h2 class="featurette-heading"> <span class="text-muted">Hire me!</span></h2>
-          <p class="lead">I am available for hire at your startup</p>
-          <p class="lead"> Please contact me at trmchale@gmail.com</p>
+       <div class="row featurette">
+        <div class="col-3">
+          <h2 class="featurette-heading text-center"> <span class="text-muted">Hire me!</span></h2>
+          <p class="lead text-center">My name is Tim McHale. I am a self taught mobile and web developer. I am currently looking for the right opportunity to contribute and grow.</p>
+          <p class="lead text-center"> Please contact me at trmchale@gmail.com</p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" >
@@ -126,6 +102,29 @@ __END__
       </div>
 
       <hr class="featurette-divider">
+
+      
+      <div class="row featurette">
+        <div class="col-md-6">
+          <h2 class="featurette-heading text-center"> <span class="text-muted">I've built</span></h2>
+          <p class="lead text-center"> a native iOS analytics platform for Tag</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-center img-responsive" src="<%= pic3.sub!(/public\//, '') %>" >
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+     <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
+        </div>
+        <div class="col-5">
+          <h2 class="featurette-heading text-center"><span class="text-muted">And</span></h2>
+          <p class="lead text-center">developed a mobile application for AstraZenca</p>
+        </div>
+      </div>
 
       <%end%>
       <%end%>
