@@ -90,7 +90,7 @@ __END__
 
 <hr class="featurette-divider">
 
-       <div class="row featurette">
+       <div class="row featurette img-responsive">
         <div class="col-3">
           <h2 class="featurette-heading text-center"> <span class="text-muted">Hire me!</span></h2>
           <p class="lead text-center">My name is Tim McHale. I am a self taught mobile and web developer. I am currently looking for the right opportunity to contribute and grow.</p>
