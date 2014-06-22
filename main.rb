@@ -116,7 +116,7 @@ __END__
 
       <hr class="featurette-divider">
 
-     <div class="row featurette">
+     <div class="row featurette img-responsive">
         <div class="col-md-5">
           <img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
         </div>
