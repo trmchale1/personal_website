@@ -44,8 +44,8 @@ __END__
     <style>
         .img-responsive {
            width: 100%;
-           height: 10%;
-           margin-bottom: 10px;
+           height: 100%;
+           
 					
         }
 
