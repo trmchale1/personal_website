@@ -44,9 +44,11 @@ __END__
     <style>
         .img-responsive {
            width: 100%;
-           height: 100%;
+           height: 10%;
+           margin-bottom: 100px;
+					
         }
-
+	
 
     </style>
 <title>Tim McHale - Developer</title>
@@ -60,26 +62,24 @@ __END__
 
     <div id="this-carousel-id" class="carousel slide"><!-- class of slide for animation -->
   <div class="carousel-inner">
+
     <div class="item active"><!-- class of active since it's the first item -->
-      <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" class="img"/>
+			
+      <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" />
+		
     </div>
       <div class="item">
-      <img src="<%= pic.sub!(/public\//, '') %>" class="img-responsive" class="img"
-      <div class="carousel-caption">
-
-      </div>
+      <img src="<%= pic.sub!(/public\//, '') %>" class="img-responsive" />
+    </div>
 
       <div class="item">
-      <img src="<%= pic2.sub!(/public\//, '') %>" class="img-responsive" class="img"
-      <div class="carousel-caption">
-
-      </div>
+      <img src="<%= pic2.sub!(/public\//, '') %>" class="img-responsive" />
     </div>
     </div>
   </div>
 
-    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#this-carousel-id" data-slide="next">&rsaquo;</a>
+    <a class="carousel-control left" href="#this-carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="carousel-control right" href="#this-carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
   <% end %>
   <% end %>
   <% end %>
@@ -131,7 +131,8 @@ __END__
       <%end%>
       <%end%>
       <!-- /END THE FEATURETTES -->
-
+			<br>
+			<br>
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
