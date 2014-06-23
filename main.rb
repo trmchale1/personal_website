@@ -146,7 +146,7 @@ __END__
 					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases</p>
 
 					<p class="lead text-center">This site was built with Sinatra</p>
-					<p class="lead text-center">Please take the time to view my github: <a href="www.github.com/trmchale1">trmchale1</a></p>
+					<p class="lead text-center">Please take the time to view my github: trmchale1</p>
 
 			</div>
 			</div>
