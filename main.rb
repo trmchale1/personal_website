@@ -48,6 +48,13 @@ __END__
            margin-bottom: 10px;
 					
         }
+
+
+          .carousel-control.left, .carousel-control.right {
+                  background-image: none
+        }
+
+
 	
 
     </style>
