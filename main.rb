@@ -45,8 +45,8 @@ __END__
         .img-responsive {
            width: 100%;
            height: 100%;
-           
-					
+
+
         }
 
 
@@ -55,7 +55,7 @@ __END__
         }
 
 
-	
+
 
     </style>
 <title>Tim McHale - Developer</title>
@@ -71,9 +71,9 @@ __END__
   <div class="carousel-inner">
 
     <div class="item active"><!-- class of active since it's the first item -->
-			
+
       <img src="<%= picture.sub!(/public\//, '') %>" class="img-responsive" />
-		
+
     </div>
       <div class="item">
       <img src="<%= pic.sub!(/public\//, '') %>" class="img-responsive" />
@@ -120,15 +120,17 @@ __END__
         </div>
         <div class="col-md-6">
           <img class="featurette-image img-center img-responsive" src="<%= pic3.sub!(/public\//, '') %>" >
-        </div>
+					</div>
+					
       </div>
 
       <hr class="featurette-divider">
 
      <div class="row featurette img-responsive">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
-        </div>
+        <div class="col-md-3">
+									<img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
+								</div>
+
         <div class="col-5">
           <h2 class="featurette-heading text-center"><span class="text-muted">And</span></h2>
           <p class="lead text-center">developed a mobile application for AstraZenca</p>
@@ -138,13 +140,7 @@ __END__
       <%end%>
       <%end%>
       <!-- /END THE FEATURETTES -->
-			<br>
-			<br>
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 Tim McHale &middot; </p>
-      </footer>
+
 
     </div><!-- /.container -->
 
