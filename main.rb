@@ -99,8 +99,8 @@ __END__
 
        <div class="row featurette img-responsive">
         <div class="col-3">
-          <h2 class="featurette-heading text-center"> <span class="text-muted">Hire me!</span></h2>
-          <p class="lead text-center">My name is Tim McHale. I am a self taught mobile and web developer.</p>
+          <h2 class="featurette-heading text-center"> <span class="text-danger">Hire me!</span></h2>
+          <p class="lead text-center">My name is Tim McHale. I'm a mobile and web developer.</p>
           <p class="lead text-center">I am currently looking for the right opportunity to contribute and grow.</p>
 
 					<p class="lead text-center"> Please contact me at trmchale@gmail.com</p>
@@ -117,25 +117,39 @@ __END__
         <div class="col-md-5">
           <h2 class="featurette-heading text-center"> <span class="text-muted">I've built</span></h2>
           <p class="lead text-center"> a native iOS analytics platform for Tag</p>
+					<p class="lead text-center">Tag is an iOS app that let's you share your location with friends</p>
         </div>
         <div class="col-md-6">
           <img class="featurette-image img-center img-responsive" src="<%= pic3.sub!(/public\//, '') %>" >
 					</div>
-					
+
       </div>
 
       <hr class="featurette-divider">
 
      <div class="row featurette img-responsive">
         <div class="col-md-3">
-									<img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
-								</div>
+					<img class="featurette-image img-responsive" src="<%= pic4.sub!(/public\//, '') %>">
+				</div>
 
-        <div class="col-5">
+      <div class="col-5">
           <h2 class="featurette-heading text-center"><span class="text-muted">And</span></h2>
-          <p class="lead text-center">developed a mobile application for AstraZenca</p>
-        </div>
+          <p class="lead text-center">I developed an iOS application for AstraZenca</p>
       </div>
+      </div>
+
+			<hr class="featurette-divider">
+
+			<div class="col-5">
+					<h2 class="featurette-heading text-center"><span class="text-muted">Tech Stack</span></h2>
+					<p class="lead text-center">In the past I have worked with Rails, Sinatra, jQuery/Javascript libraries,</p>
+					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases</p>
+
+					<p class="lead text-center">This site was built with Sinatra</p>
+					<p class="lead text-center">Please take the time to view my github: <a href="www.github.com/trmchale1">trmchale1</a></p>
+
+			</div>
+			</div>
 
       <%end%>
       <%end%>
