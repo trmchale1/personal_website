@@ -45,7 +45,7 @@ __END__
         .img-responsive {
            width: 100%;
            height: 10%;
-           margin-bottom: 100px;
+           margin-bottom: 10px;
 					
         }
 	
