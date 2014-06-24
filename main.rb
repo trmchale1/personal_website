@@ -115,7 +115,7 @@ __END__
 
       <div class="row featurette img-responsive">
         <div class="col-md-5">
-          <h2 class="featurette-heading text-center"> <span class="text-muted">I've built</span></h2>
+          <h2 class="featurette-heading text-center"> <span class="text-danger">I've built</span></h2>
           <p class="lead text-center"> a native iOS analytics platform for Tag</p>
 					<p class="lead text-center">Tag is an iOS app that let's you share your location with friends</p>
         </div>
@@ -133,7 +133,7 @@ __END__
 				</div>
 
       <div class="col-5">
-          <h2 class="featurette-heading text-center"><span class="text-muted">And</span></h2>
+          <h2 class="featurette-heading text-center"><span class="text-danger">And</span></h2>
           <p class="lead text-center">I developed an iOS application for AstraZenca</p>
       </div>
       </div>
@@ -141,7 +141,7 @@ __END__
 			<hr class="featurette-divider">
 
 			<div class="col-5">
-					<h2 class="featurette-heading text-center"><span class="text-muted">Tech Stack</span></h2>
+					<h2 class="featurette-heading text-center"><span class="text-danger">Tech Stack</span></h2>
 					<p class="lead text-center">In the past I have worked with Rails, Sinatra, jQuery/Javascript libraries,</p>
 					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases</p>
 
