@@ -144,13 +144,14 @@ __END__
 					<h2 class="featurette-heading text-center"><span class="text-danger">Tech Stack</span></h2>
 					<p class="lead text-center">In the past I have worked with Rails, Sinatra, jQuery/Javascript libraries,</p>
 					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases</p>
+					<p class="lead text-center">and I am fanatical about git version control</p>
 
 					<p class="lead text-center">This site was built with Sinatra</p>
 					<p class="lead text-center">Please take the time to view my github: trmchale1<%=link_to nil,"http://#{www.github.com}"%></p>
 
 			</div>
 			</div>
-
+			<%end%>
       <%end%>
       <%end%>
       <!-- /END THE FEATURETTES -->
