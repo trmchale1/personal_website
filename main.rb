@@ -151,7 +151,7 @@ __END__
 					<p class="lead text-center">and I am fanatical about git version control</p>
 
 					<p class="lead text-center">This site was built with Sinatra</p>
-					<p class="lead text-center">Please take the time to view my github: trmchale1   I'm talking about <a href="http://ruby-lang.org">Ruby</a> in this text.</p>
+					<p class="lead text-center">Please take the time to view my github: <a href="https://github.com/trmchale1">trmchale1</a> </p>
 
 			</div>
 			</div>
