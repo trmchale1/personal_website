@@ -147,11 +147,10 @@ __END__
 					<p class="lead text-center">and I am fanatical about git version control</p>
 
 					<p class="lead text-center">This site was built with Sinatra</p>
-					<p class="lead text-center">Please take the time to view my github: trmchale1<%=link_to nil,"http://#{www.github.com}"%></p>
+					<p class="lead text-center">Please take the time to view my github: trmchale1</p>
 
 			</div>
 			</div>
-			<%end%>
       <%end%>
       <%end%>
       <!-- /END THE FEATURETTES -->
