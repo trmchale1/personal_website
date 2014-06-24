@@ -121,7 +121,7 @@ __END__
         <div class="col-md-5">
           <h2 class="featurette-heading text-center"> <span class="text-danger">I've built</span></h2>
           <p class="lead text-center"> a native iOS analytics platform for Tag</p>
-					<p class="lead text-center">Tag is an iOS app that let's you share your location with friends</p>
+					<p class="lead text-center"><a href="http://www.gettagapp.com/">Tag</a> is an iOS app that let's you share your location with friends</p>
         </div>
         <div class="col-md-6">
           <img class="featurette-image img-center img-responsive" src="<%= pic3.sub!(/public\//, '') %>" >
@@ -150,7 +150,7 @@ __END__
 					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases,</p>
 					<p class="lead text-center">and I am fanatical about git version control</p>
 
-					<p class="lead text-center">This site was built with Sinatra</p>
+					<p class="lead text-center">This site was built with <a href="http://www.sinatrarb.com/Sinatra">Sinatra</a></p>
 					<p class="lead text-center">Please take the time to view my github: <a href="https://github.com/trmchale1">trmchale1</a> </p>
 
 			</div>
