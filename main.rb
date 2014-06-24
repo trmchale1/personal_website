@@ -20,6 +20,10 @@ def pic4
   Dir.glob("public/image3/*.{jpg,JPG}")
 end
 
+def link
+
+end
+
 
 get '/' do
 	@pictures = load_pictures
@@ -143,11 +147,11 @@ __END__
 			<div class="col-5">
 					<h2 class="featurette-heading text-center"><span class="text-danger">Tech Stack</span></h2>
 					<p class="lead text-center">In the past I have worked with Rails, Sinatra, jQuery/Javascript libraries,</p>
-					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases</p>
+					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases,</p>
 					<p class="lead text-center">and I am fanatical about git version control</p>
 
 					<p class="lead text-center">This site was built with Sinatra</p>
-					<p class="lead text-center">Please take the time to view my github: trmchale1</p>
+					<p class="lead text-center">Please take the time to view my github: trmchale1   I'm talking about <a href="http://ruby-lang.org">Ruby</a> in this text.</p>
 
 			</div>
 			</div>
