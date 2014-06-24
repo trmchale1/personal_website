@@ -149,7 +149,7 @@ trmchale@gmail.com</a></p>
 					<p class="lead text-center">Bootstrap/HTML/CSS, Ruby, scripting with Python, Obj-C/iOS development, JSON, XML, a variety of NoSQL databases,</p>
 					<p class="lead text-center">and I am fanatical about git version control</p>
 
-					<p class="lead text-center">This site was built with <a href="http://www.sinatrarb.com/Sinatra">Sinatra</a></p>
+					<p class="lead text-center">This site was built with <a href="http://www.sinatrarb.com">Sinatra</a></p>
 					<p class="lead text-center">Please take the time to view my github: <a href="https://github.com/trmchale1">trmchale1</a> </p>
 
 			</div>
