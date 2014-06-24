@@ -20,9 +20,7 @@ def pic4
   Dir.glob("public/image3/*.{jpg,JPG}")
 end
 
-def link
 
-end
 
 
 get '/' do
@@ -107,7 +105,8 @@ __END__
           <p class="lead text-center">My name is Tim McHale. I'm a mobile and web developer.</p>
           <p class="lead text-center">I am currently looking for the right opportunity to contribute and grow.</p>
 
-					<p class="lead text-center"> Please contact me at trmchale@gmail.com</p>
+					<p class="lead text-center"> Please contact me at<a href="mailto:trmchale@gmail.com?Subject=You're%20hired!" target="_top">
+trmchale@gmail.com</a></p>
         </div>
         <div class="col-md-5">
           <img class="featurette-image img-responsive" >
